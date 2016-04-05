@@ -1,6 +1,6 @@
 <ul>
 {{#each model as |senate|}}
-  <li>{{#link-to 'senate-details' senate.parent_committee_id}}{{senate.name}}{{/link-to}}</li>
+  <li>{{#link-to 'senate-details' senate.committee_id}}{{senate.name}}{{/link-to}}</li>
 {{/each}}
 </ul>
 
