@@ -11,5 +11,8 @@ export default Ember.Route.extend({
     senateLookUp() {
       this.transitionTo('senate');
     },
+    billLookUp() {
+      this.transitionTo('bill');
+    },
   }
 });
