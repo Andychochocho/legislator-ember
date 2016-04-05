@@ -1,13 +1,13 @@
 <ul>
   {{#each model as |bill|}}
     {{#if bill.short_title}}
-      <br>
-      <li>{{bill.short_title}}</li>
+      <br><hr>
+      <li><h4>Name:</h4>{{bill.short_title}}</li>
     {{else}}
-      <br>
-      <li>Sorry, there is no title for that.</li>
+      <br><hr>
+      <li><h4>Name:</h4>Sorry, there is no official name for that.</li>
     {{/if}}
-    <li>{{bill.official_title}}</li>
+    <li><h4>Description:</h4>{{bill.official_title}}</li>
   {{/each}}
 </ul>
 
