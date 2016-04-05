@@ -10,8 +10,8 @@ Router.map(function() {
   // add this later underneath
   this.route('house', {path: '/house/'});
   this.route('senate', {path: '/senate/'});
-  this.route('senate-details', {path: '/senate-details/:{{senate.committee_id}}'});
-  this.route('house-details', {path: '/house-details/:{{house.committee_id}}'});
+  this.route('senate-details', {path: '/senate-details/:committee_id'});
+  this.route('house-details', {path: '/house-details/:committee_id'});
 });
 
 export default Router;

@@ -1,1 +1,7 @@
-{{outlet}}
+<ul>
+  {{#each model as |house|}}
+  <li>{{#link-to 'index'}}{{house.name}}{{/link-to}}</li>
+  {{/each}}
+</ul>
+
+{{#link-to 'index'}}Home{{/link-to}}
