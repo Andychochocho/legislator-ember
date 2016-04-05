@@ -1,6 +1,6 @@
 <ul>
   {{#each model as |house|}}
-  <li>{{house.name}}</li>
+  {{#link-to 'index'}}<li>{{house.name}}</li>{{/link-to}}
   {{/each}}
 </ul>
 

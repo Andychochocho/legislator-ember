@@ -10,6 +10,8 @@ Router.map(function() {
   // add this later underneath
   this.route('house', {path: '/house/'});
   this.route('senate', {path: '/senate/'});
+  this.route('senate-details');
+  this.route('house-details');
 });
 
 export default Router;
