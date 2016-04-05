@@ -7,6 +7,9 @@ export default Ember.Route.extend({
     },
     houseLookUp() {
       this.transitionTo('house');
-    }
+    },
+    senateLookUp() {
+      this.transitionTo('senate');
+    },
   }
 });
