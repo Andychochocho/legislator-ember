@@ -1,0 +1,12 @@
+<ul>
+  {{#each model as |bill|}}
+    {{#if bill.short_title}}
+      <li>{{bill.short_title}}</li>
+    {{else}}
+      <li>Sorry, there is no title for that.</li>
+    {{/if}}
+    <li>{{bill.official_title}}</li>
+  {{/each}}
+</ul>
+
+{{#link-to 'index'}}Home{{/link-to}}
